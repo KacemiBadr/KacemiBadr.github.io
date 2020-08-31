@@ -10,37 +10,37 @@
 
 title: Badr Kacemi  # the main title
 
-tagline: Systeme embarque Jrro.  # it will display as the sub-title
+tagline: Systeme embarque .  # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
+description: >-              # used by seo meta and the atom feed
   portfolio, sidebar, side project,spring,java,spring boot,docker,devops
   I'm a software engineer based in Morocco, focused on the Java ,Spring ecosystem and DevOps
   to build and deploy high-quality software and application .
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'localhost:8000'
-#url: 'https://abdennacerelmaalem.github.io'
+#url: ''
+url: 'https://KacemiBadr.github.io'
 
-author: abdennacer el-maalem                  # change to your full name
+author: Kacemi Badr                  # change to your full name
 
-avatar: /assets/img/sample/abdennacer_el-maalem.jpg   # support internet resources
+avatar: /assets/img/sample/Badr.jpg   # support internet resources
 
 github:
-  username: abdennacerelmaalem             # change to your github username
+  username: KacemiBadr             # change to your github username
 
 twitter:
-  username: elmaalem_nacer            # change to your twitter username
+  username: badr_kacemi            # change to your twitter username
 
 social:
-  name: abdennacer el-maalem                  # it will shows as the copyright owner in Footer
-  email: elmaalem.abdennacer@gmail.com             # change to your email address
+  name: Badr Kacemi                  # it will shows as the copyright owner in Footer
+  email: badrkacemi.20@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/elmaalem_nacer      # change to your twitter homepage
-    - https://github.com//abdennacerelmaalem       # change to your github homepage
+    - https://twitter.com/badr_kacemi      # change to your twitter homepage
+    - https://github.com/KacemiBadr       # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/abdennacer.elmaalem
-    - https://www.linkedin.com/in/abdennacer-elmaalem
+    - https://www.facebook.com/badr.kacemi.3
+    - https://www.linkedin.com/in/badr-kacemi/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -54,7 +54,7 @@ timezone: Africa/Casablanca
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: '167461639'
+#  id: '167461639'
   # The Google Analytics pageviews switch.
 
   pv:
@@ -66,8 +66,8 @@ google_analytics:
     cache: false  # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: 'KacemiBadr'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting, available values:
