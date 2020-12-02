@@ -70,7 +70,7 @@ Make it concrete for designing software based on ES we’re not going to dedicat
 The complexity is somehow increasing, we are dealing with 2 issues:
 How to design a real-time system responding to the RT exigences such as deadlines and so on, and the hardware constraints.
 
-![GitHub Logo](/images/Embedded-System.png)
+![GitHub Logo]({{"/assets/img/sample/Embedded-System.png"}})
 
 ### Ensuring the real-time aspect of your system
 
