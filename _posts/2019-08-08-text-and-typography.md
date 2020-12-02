@@ -8,7 +8,7 @@ tags: [typography]
 
 # Maintaining the real time concept while designing the software application
 
-![GitHub Logo](assets/img/sample/front.jfif)
+![GitHub Logo](assets/img/sample/rt.png)
 
 ## The real-time concept
 
