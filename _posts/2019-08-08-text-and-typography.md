@@ -100,8 +100,7 @@ All these questions will be well detailed in the next blog.
 
 
 *"the fundamentals aspects of real-time embedded software are often not well understood by designers in a design community which is traditionally hardware oriented …"*
-
-										[anonymous]
+									[anonymous]
 
 Thank you for your attention.
 I am open to learning more from your questions.
