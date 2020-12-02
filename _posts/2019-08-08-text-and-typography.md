@@ -7,11 +7,11 @@ categories: [Blogging, Demo]
 tags: [typography]
 ---
 
-# Maintaining the real time concept while designing the software application
-
 ![GitHub Logo]({{"/assets/img/sample/front.jfif"}})
 
-## The real-time concept
+Real-time computing describes the capability of a computing system to respond to a given input within a tightly constrained time frame.
+
+# The real-time concept
 
 The real-time concept in brief can be defined as 2 essential conditions:
 
@@ -29,7 +29,7 @@ Remember that **providing the right answer is not enough, but rather providing i
 
 ![GitHub Logo]({{"/assets/img/sample/Embedded-System-and-Its-Real-Time-Applications-Image-4.jpg"}})
 
-## Types of real-Time Embedded Systems
+# Types of real-Time Embedded Systems
 
 We can’t mention the second condition without taking a look at the real-time systems types:
 
@@ -44,7 +44,7 @@ Hard RT timing constraints must be met absolutely, on penalty of catastrophic re
 
 ![GitHub Logo]({{"/assets/img/sample/461004_1_De_8_Fig3_HTML.gif"}})
 
-## ES restrictions
+# ES restrictions
 
 The developer has to be adapted to different situations, **knowing the constraints to which an ES is subjected.**
 
@@ -59,33 +59,33 @@ To guarantee battery autonomy, losses must be decreased as much as possible.
 
 There is another category of embedded systems which require more memory space because they host Linux OS, the widely used OS in several industries (automotive, aeronautics ...) of course with some adaptations "adding the Xenomai extension ", to add the real-time aspect to the OS, because at the base Linux doesn’t have this aspect (we’ll talk about this later), but Linux provides the concept of multitasking.
 
-### Importance of multitasking
+## Importance of multitasking
 
 Keeping in mind that multitasking does not guarantee the RT condition of the application, its main purpose is to simplify the creation of our Real-time application.
 
 Make it concrete for designing software based on ES we’re not going to dedicate a processor for each task (cost increased, further than that the problem of synchronizing processors one another comes up, so what we have to do is to implement a maximum of features in one calculator regarding the constraints of the system, nevertheless by sharing its calculation time between its several tasks, hence the interest of **multitasking**
 
-## The real-time concept and the constraints of the entire system
+# The real-time concept and the constraints of the entire system
 
 The complexity is somehow increasing, we are dealing with 2 issues:
 How to design a real-time system responding to the RT exigences such as deadlines and so on, and the hardware constraints.
 
 ![GitHub Logo]({{"/assets/img/sample/Embedded-System.png"}})
 
-### Ensuring the real-time aspect of your system
+## Ensuring the real-time aspect of your system
 
 In critical cases, to be correct we must use a hardware clock either using a timer this one can be less accurate, or we simply could use an external entity RTC which maintains the exact time without any uncertainties.
 As well as, we are allowed to use the mechanism of interruptions to know when to trigger priority actions.
 
 Working with multitasking allows the facility of developing a professional application that's supposed to do several tasks (displaying, managing, internal communication between tasks, scheduling).
 
-### Constraints especially for the small ES
+## Constraints especially for the small ES
 
 Generally, these are linked with the frequency of the processor which wouldn’t be high for several reasons as we’ve mentioned before like overheating, weight, the autonomy of the battery, small memory space.
 
 In this sense, the impact of these constraints can go further till the code concretely some compilers provide suggestions to optimize instructions in your code.
 
-### What’s the process?
+## What’s the process?
 
 The software developer starts to develop the application (several software components) for realizing the services which will provide this system, after choosing the architecture of the material (microcontroller, processor, frequency, memory size) by the hardware engineers.
 Of course, the software developer should optimize the code according to the chosen architecture.
