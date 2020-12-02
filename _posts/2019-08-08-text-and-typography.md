@@ -8,7 +8,7 @@ tags: [typography]
 
 # Maintaining the real time concept while designing the software application
 
-![GitHub Logo]({{"/assets/img/sample/rt.png"}})
+![GitHub Logo]({{"/assets/img/sample/front.jfif"}})
 
 ## The real-time concept
 
@@ -18,7 +18,7 @@ The real-time concept in brief can be defined as 2 essential conditions:
 
 - If and only if the first condition is verified, we can discuss the accuracy of our system in terms of time “constraints=deadlines”
 
-			"Output Y desired in the deadline T well-defined”
+	"Output Y desired in the deadline T well-defined”
 
 If the two conditions are verified, then the system can be called a Real-time system.
 
@@ -26,20 +26,19 @@ A real-time system is not necessarily a fast system, it should react just in tim
 
 Remember that **providing the right answer is not enough, but rather providing it at the right time.**
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo]({{"/assets/img/sample/Embedded-System-and-Its-Real-Time-Applications-Image-4.jpg"}})
 
 ## Types of Real-Time Embedded Systems:
 
 We can’t mention the second condition without taking a look at the real-time systems types:
-
+![GitHub Logo]({{"/assets/img/sample/218206_1_En_1_Fig3_HTML.png"}})//////////////////////////////////////////////////////////////////////////////
 The main two types are:
 - Soft: Tolerable but occasionally more flexible.
 Soft RT constraints may occasionally be missed without troubling the integrity of the system.
 
 - Hard: exceeding a deadline is categorically not accepted.
 Hard RT timing constraints must be met absolutely, on penalty of catastrophic results include maximum interrupt latency and input-to-output delay.
-![GitHub Logo](/images/logo.png)
-![GitHub Logo](/images/logo.png)
+![GitHub Logo]({{"/assets/img/sample/rt.png"}})
 
 ## ES restrictions:
 
