@@ -6,153 +6,98 @@ categories: [Blogging, Demo]
 tags: [typography]
 ---
 
-This Jekyll template totally compatible with Markdown syntax. Now, let's take a look for the text and typography in this theme.
+# Maintaining the real time concept while designing the software application
 
-## Titles
+![GitHub Logo](assets/img/sample/front.jfif)
 
-***
-# H1
+## The real-time concept
 
-<h2 data-toc-skip>H2</h2>
+The real-time concept in brief can be defined as 2 essential conditions:
 
-<h3 data-toc-skip>H3</h3>
+- First, the results should be “Correct”, means acceptable in the sense of the reliability of outputs, this condition is necessary but not sufficient.
 
-#### H4
+- If and only if the first condition is verified, we can discuss the accuracy of our system in terms of time “constraints=deadlines”
 
-***
+			"Output Y desired in the deadline T well-defined”
 
-## Paragraph
+If the two conditions are verified, then the system can be called a Real-time system.
 
-I wandered lonely as a cloud
+A real-time system is not necessarily a fast system, it should react just in time.
 
-That floats on high o'er vales and hills,
+Remember that **providing the right answer is not enough, but rather providing it at the right time.**
 
-When all at once I saw a crowd,
+![GitHub Logo](/images/logo.png)
 
-A host, of golden daffodils;
+## Types of Real-Time Embedded Systems:
 
-Beside the lake, beneath the trees,
+We can’t mention the second condition without taking a look at the real-time systems types:
 
-Fluttering and dancing in the breeze.
+The main two types are:
+- Soft: Tolerable but occasionally more flexible.
+Soft RT constraints may occasionally be missed without troubling the integrity of the system.
 
-## Block Quote
+- Hard: exceeding a deadline is categorically not accepted.
+Hard RT timing constraints must be met absolutely, on penalty of catastrophic results include maximum interrupt latency and input-to-output delay.
+![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/logo.png)
 
-> This line to shows the Block Quote.
+## ES restrictions:
 
-## Tables
+The developer has to be adapted to different situations, **knowing the constraints to which an ES is subjected.**
 
-|Company|Contact|Country|
-|:---|:--|---:|
-|Alfreds Futterkiste | Maria Anders | Germany
-|Island Trading | Helen Bennett | UK
-|Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy
+The software developed by the manufacturer is dedicated to well-known tasks.
+The user doesn’t have to step in this software, that's what’s called **firmware** namely MP3, camera, scanner, and so on, whereas a computer is an open hardware platform it's up to you to do whatever you would like to do with.
 
-## Link
+In short, we have to differentiate between IT development and onboard development.
+As we all know IT development doesn't care about the hardware side (Computer with 8GB Ram-large ROM, high battery performance.)
 
-[http://127.0.0.1:4000](http://127.0.0.1:4000)
+Rather in Embedded programming generally the memory spaces are very low, so it crucial to optimize the code and instructions, in the side of overheating risks that must be taken seriously, it means that frequencies in the GHz range or similar cannot be used, it’s better to choose frequencies of the order of a few hundred MHz.
+To guarantee battery autonomy, losses must be decreased as much as possible.
 
+There is another category of embedded systems which require more memory space because they host Linux OS, the widely used OS in several industries (automotive, aeronautics ...) of course with some adaptations "adding the Xenomai extension ", to add the real-time aspect to the OS, because at the base Linux doesn’t have this aspect (we’ll talk about this later), but Linux provides the concept of multitasking.
 
-## Footnote
+### Importance of multitasking:
 
-Click the hook will locate the footnote[^footnote].
+Keeping in mind that multitasking does not guarantee the RT condition of the application, its main purpose is to simplify the creation of our Real-time application.
 
+Make it concrete for designing software based on ES we’re not going to dedicate a processor for each task (cost increased, further than that the problem of synchronizing processors one another comes up, so what we have to do is to implement a maximum of features in one calculator regarding the constraints of the system, nevertheless by sharing its calculation time between its several tasks, hence the interest of **multitasking**
 
-## Image
+## The real-time concept and the constraints of the entire system:
 
-![Desktop View]({{ "/assets/img/sample/mockup.png" | relative_url }})
+The complexity is somehow increasing, we are dealing with 2 issues:
+How to design a real-time system responding to the RT exigences such as deadlines and so on, and the hardware constraints.
+![GitHub Logo](/images/logo.png)
 
+### Ensuring the real-time aspect of your system:
 
-## Inline code
+In critical cases, to be correct we must use a hardware clock either using a timer this one can be less accurate, or we simply could use an external entity RTC which maintains the exact time without any uncertainties.
+As well as, we are allowed to use the mechanism of interruptions to know when to trigger priority actions.
 
-This is an example of `Inline Code`.
+Working with multitasking allows the facility of developing a professional application that's supposed to do several tasks (displaying, managing, internal communication between tasks, scheduling).
 
+### Constraints especially for the small ES:
 
-## Code Snippet
+Generally, these are linked with the frequency of the processor which wouldn’t be high for several reasons as we’ve mentioned before like overheating, weight, the autonomy of the battery, small memory space.
 
-### Common
+In this sense, the impact of these constraints can go further till the code concretely some compilers provide suggestions to optimize instructions in your code.
 
-```
-This is a common code snippet, without syntax highlight and line number.
-```
+### What’s the process?
 
-### Specific Languages
+The software developer starts to develop the application (several software components) for realizing the services which will provide this system, after choosing the architecture of the material (microcontroller, processor, frequency, memory size) by the hardware engineers.
+Of course, the software developer should optimize the code according to the chosen architecture.
+Generally, the application is not easily portable to other hardware.
 
-#### Console
+What is the component which helps to deal with this issue?
+What is the OS? What are its approaches? 
+What are the advantages and disadvantages of integrating it into your project?How to choose the suitable OS for your project? 
 
-```console
-$ date
-Sun Nov  3 15:11:12 CST 2019
-```
-
-
-#### Terminal
-
-```terminal
-$ env |grep SHELL
-SHELL=/usr/local/bin/bash
-PYENV_SHELL=bash
-```
-
-#### Ruby
-
-```ruby
-def sum_eq_n?(arr, n)
-  return true if arr.empty? && n == 0
-  arr.product(arr).reject { |a,b| a == b }.any? { |a,b| a + b == n }
-end
-```
-
-#### Shell
-
-```shell
-if [ $? -ne 0 ]; then
-    echo "The command was not successful.";
-    #do the needful / exit
-fi;
-```
-
-#### Liquid
-
-{% raw %}
-```liquid
-{% if product.title contains 'Pack' %}
-  This product's title contains the word Pack.
-{% endif %}
-```
-{% endraw %}
-
-#### HTML
-
-```html
-<div class="sidenav">
-  <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  <a href="#contact">Search</a>
-</div>
-```
-
-**Horizontal Scrolling**
-
-```html
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading" id="{{ category_name }}">
-      <i class="far fa-folder"></i>
-      <p>This is a very long long long long long long long long long long long long long long long long long long long long long line.</p>
-      </a>
-    </div>
-  </div>
-</div>
-```
+All these questions will be well detailed in the next blog.
 
 
-## Reverse Footnote
 
-[^footnote]: The footnote source.
+*"the fundamentals aspects of real-time embedded software are often not well understood by designers in a design community which is traditionally hardware oriented …"*
+
+											[anonymous]
+
+Thank you for your attention.
+I am open to learning more from your questions.
