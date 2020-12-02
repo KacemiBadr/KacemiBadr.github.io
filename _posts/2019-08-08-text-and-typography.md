@@ -31,7 +31,7 @@ Remember that **providing the right answer is not enough, but rather providing i
 ## Types of Real-Time Embedded Systems:
 
 We can’t mention the second condition without taking a look at the real-time systems types:
-![GitHub Logo]({{"/assets/img/sample/218206_1_En_1_Fig3_HTML.png"}})//////////////////////////////////////////////////////////////////////////////
+![GitHub Logo]({{"/assets/img/sample/218206_1_En_1_Fig3_HTML.png"}})
 The main two types are:
 - Soft: Tolerable but occasionally more flexible.
 Soft RT constraints may occasionally be missed without troubling the integrity of the system.
