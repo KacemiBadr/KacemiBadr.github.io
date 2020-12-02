@@ -31,13 +31,16 @@ Remember that **providing the right answer is not enough, but rather providing i
 ## Types of Real-Time Embedded Systems:
 
 We can’t mention the second condition without taking a look at the real-time systems types:
+
 ![GitHub Logo]({{"/assets/img/sample/218206_1_En_1_Fig3_HTML.png"}})
+
 The main two types are:
 - Soft: Tolerable but occasionally more flexible.
 Soft RT constraints may occasionally be missed without troubling the integrity of the system.
 
 - Hard: exceeding a deadline is categorically not accepted.
 Hard RT timing constraints must be met absolutely, on penalty of catastrophic results include maximum interrupt latency and input-to-output delay.
+
 ![GitHub Logo]({{"/assets/img/sample/461004_1_De_8_Fig3_HTML.gif"}})
 
 ## ES restrictions:
@@ -65,6 +68,7 @@ Make it concrete for designing software based on ES we’re not going to dedicat
 
 The complexity is somehow increasing, we are dealing with 2 issues:
 How to design a real-time system responding to the RT exigences such as deadlines and so on, and the hardware constraints.
+
 ![GitHub Logo](/images/Embedded-System.png)
 
 ### Ensuring the real-time aspect of your system:
