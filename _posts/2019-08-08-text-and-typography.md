@@ -29,7 +29,7 @@ Remember that **providing the right answer is not enough, but rather providing i
 
 ![GitHub Logo]({{"/assets/img/sample/Embedded-System-and-Its-Real-Time-Applications-Image-4.jpg"}})
 
-## Types of Real-Time Embedded Systems
+## Types of real-Time Embedded Systems
 
 We can’t mention the second condition without taking a look at the real-time systems types:
 
