@@ -28,7 +28,7 @@ Remember that **providing the right answer is not enough, but rather providing i
 
 ![GitHub Logo]({{"/assets/img/sample/Embedded-System-and-Its-Real-Time-Applications-Image-4.jpg"}})
 
-## Types of Real-Time Embedded Systems:
+## Types of Real-Time Embedded Systems
 
 We can’t mention the second condition without taking a look at the real-time systems types:
 
@@ -43,7 +43,7 @@ Hard RT timing constraints must be met absolutely, on penalty of catastrophic re
 
 ![GitHub Logo]({{"/assets/img/sample/461004_1_De_8_Fig3_HTML.gif"}})
 
-## ES restrictions:
+## ES restrictions
 
 The developer has to be adapted to different situations, **knowing the constraints to which an ES is subjected.**
 
@@ -58,27 +58,27 @@ To guarantee battery autonomy, losses must be decreased as much as possible.
 
 There is another category of embedded systems which require more memory space because they host Linux OS, the widely used OS in several industries (automotive, aeronautics ...) of course with some adaptations "adding the Xenomai extension ", to add the real-time aspect to the OS, because at the base Linux doesn’t have this aspect (we’ll talk about this later), but Linux provides the concept of multitasking.
 
-### Importance of multitasking:
+### Importance of multitasking
 
 Keeping in mind that multitasking does not guarantee the RT condition of the application, its main purpose is to simplify the creation of our Real-time application.
 
 Make it concrete for designing software based on ES we’re not going to dedicate a processor for each task (cost increased, further than that the problem of synchronizing processors one another comes up, so what we have to do is to implement a maximum of features in one calculator regarding the constraints of the system, nevertheless by sharing its calculation time between its several tasks, hence the interest of **multitasking**
 
-## The real-time concept and the constraints of the entire system:
+## The real-time concept and the constraints of the entire system
 
 The complexity is somehow increasing, we are dealing with 2 issues:
 How to design a real-time system responding to the RT exigences such as deadlines and so on, and the hardware constraints.
 
 ![GitHub Logo](/images/Embedded-System.png)
 
-### Ensuring the real-time aspect of your system:
+### Ensuring the real-time aspect of your system
 
 In critical cases, to be correct we must use a hardware clock either using a timer this one can be less accurate, or we simply could use an external entity RTC which maintains the exact time without any uncertainties.
 As well as, we are allowed to use the mechanism of interruptions to know when to trigger priority actions.
 
 Working with multitasking allows the facility of developing a professional application that's supposed to do several tasks (displaying, managing, internal communication between tasks, scheduling).
 
-### Constraints especially for the small ES:
+### Constraints especially for the small ES
 
 Generally, these are linked with the frequency of the processor which wouldn’t be high for several reasons as we’ve mentioned before like overheating, weight, the autonomy of the battery, small memory space.
 
