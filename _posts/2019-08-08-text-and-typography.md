@@ -38,7 +38,7 @@ Soft RT constraints may occasionally be missed without troubling the integrity o
 
 - Hard: exceeding a deadline is categorically not accepted.
 Hard RT timing constraints must be met absolutely, on penalty of catastrophic results include maximum interrupt latency and input-to-output delay.
-![GitHub Logo]({{"/assets/img/sample/rt.png"}})
+![GitHub Logo]({{"/assets/img/sample/461004_1_De_8_Fig3_HTML.gif"}})
 
 ## ES restrictions:
 
@@ -65,7 +65,7 @@ Make it concrete for designing software based on ES we’re not going to dedicat
 
 The complexity is somehow increasing, we are dealing with 2 issues:
 How to design a real-time system responding to the RT exigences such as deadlines and so on, and the hardware constraints.
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/Embedded-System.png)
 
 ### Ensuring the real-time aspect of your system:
 
@@ -96,7 +96,7 @@ All these questions will be well detailed in the next blog.
 
 *"the fundamentals aspects of real-time embedded software are often not well understood by designers in a design community which is traditionally hardware oriented …"*
 
-											[anonymous]
+																			[anonymous]
 
 Thank you for your attention.
 I am open to learning more from your questions.
