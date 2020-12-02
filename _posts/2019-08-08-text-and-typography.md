@@ -1,5 +1,6 @@
 ---
-title: Text and Typography
+title: Maintaining the real time concept while designing the software application
+
 author: Cotes Chung
 date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
