@@ -31,4 +31,4 @@ title: About
 - Embedded Linux 
 - hardware / software dependencies
 
-Do not hesitate to contact me personally for further information.
+For further information do not hesitate to contact me via email (by clicking on the first page icon)
