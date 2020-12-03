@@ -21,5 +21,3 @@ title: About
  - GitHub
  - Raspberry Pi
  - ISIS Proteus
-
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
