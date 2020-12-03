@@ -1,10 +1,10 @@
 ---
 title: Maintaining the real time concept while designing the software application
 
-author: Cotes Chung
-date: 2019-08-08 11:33:00 +0800
+author: Badr Kacemi
+date: 2020-12-02 14:00:00 +0800
 categories: [Blogging, Demo]
-tags: [typography]
+tags: [Real_Time]
 ---
 
 ![GitHub Logo]({{"/assets/img/sample/front.jfif"}})
