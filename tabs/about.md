@@ -19,8 +19,6 @@ title: About
  - Raspberry Pi
  - ISIS Proteus
 
-
-
 ## Languages
 
 - Arabic : Native
@@ -28,3 +26,9 @@ title: About
 - French : Full Professional Proficiency
 - German : Elementary Proficiency A1
 
+## Current interest
+
+- Embedded Linux 
+- hardware / software dependencies
+
+Do not hesitate to contact me personally for further information.
