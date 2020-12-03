@@ -8,4 +8,18 @@ title: About
 # MIT License
 ---
 
+# Badr Kacemi
+
+
+## Some Skills
+
+ - C/C++
+ - Linux
+ - FreeRTOS
+ - PIC24FJ128GA010
+ - MPLAB X
+ - GitHub
+ - Raspberry Pi
+ - ISIS Proteus
+
 > **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
