@@ -8,10 +8,8 @@ title: About
 # MIT License
 ---
 
-# Badr Kacemi
 
-
-## Some Skills
+ Some Skills
 
  - C/C++
  - Linux
