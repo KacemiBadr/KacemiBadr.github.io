@@ -3,7 +3,7 @@ title: Maintaining the real time concept while designing the software applicatio
 
 author: Badr Kacemi
 date: 2020-12-02 14:00:00 +0800
-categories: [Blogging, Demo]
+categories: [Blogging, Embedded_Systems]
 tags: [Real_Time]
 ---
 
