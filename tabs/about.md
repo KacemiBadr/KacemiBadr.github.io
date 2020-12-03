@@ -8,8 +8,7 @@ title: About
 # MIT License
 ---
 
-
- Some Skills
+## Some Skills:
 
  - C/C++
  - Linux
@@ -19,3 +18,13 @@ title: About
  - GitHub
  - Raspberry Pi
  - ISIS Proteus
+
+
+
+## Languages
+
+- Arabic : Native
+- English : Full Professional Proficiency
+- French : Full Professional Proficiency
+- German : Elementary Proficiency A1
+
