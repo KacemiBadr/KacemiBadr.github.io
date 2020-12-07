@@ -15,6 +15,7 @@ title: About
  - FreeRTOS
  - PIC24FJ128GA010
  - MPLAB X
+ - Git
  - GitHub
  - Raspberry Pi
  - ISIS Proteus
@@ -32,4 +33,4 @@ title: About
 - hardware / software dependencies
 
 
-For further information do not hesitate to contact me via email (by clicking on the first page icon)
+For further information do not hesitate to contact me via email (by clicking on icons)
