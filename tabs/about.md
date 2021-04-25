@@ -1,4 +1,7 @@
----
+
+
+
+>---
 title: About
 
 # The About page
@@ -29,8 +32,8 @@ title: About
 
 ## Current interest
 
-- Embedded Linux 
-- hardware / software dependencies
+- ECUs in Electrical Vehicles
+- Hardware / Software dependencies in Automotive
 
 
-For further information do not hesitate to contact me via email (by clicking on icons)
+For further information do not hesitate to contact me via email (by clicking on the icons below)
