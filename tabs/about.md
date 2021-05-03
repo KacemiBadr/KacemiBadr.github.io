@@ -1,7 +1,7 @@
 
 
 
->---
+---
 title: About
 
 # The About page
@@ -11,7 +11,7 @@ title: About
 # MIT License
 ---
 
-## Some Skills:
+> ## Some Skills:
 
  - C/C++
  - Linux
