@@ -8,4 +8,29 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+## Some Skills:
+
+ - C/C++
+ - Linux
+ - FreeRTOS
+ - PIC24FJ128GA010
+ - MPLAB X
+ - Git
+ - GitHub
+ - Raspberry Pi
+ - ISIS Proteus
+
+## Languages
+
+- Arabic : Native
+- English : Full Professional Proficiency
+- French : Full Professional Proficiency
+- German : Elementary Proficiency A1
+
+## Current interest
+
+- ECUs in Electrical Vehicles
+- Hardware / Software dependencies in Automotive
+
+
+For further information do not hesitate to contact me.
