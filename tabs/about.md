@@ -13,13 +13,10 @@ title: About
  - C/C++
  - Linux
  - FreeRTOS
- - PIC24FJ128GA010
  - MPLAB X
  - Git
  - GitHub
- - Raspberry Pi
- - ISIS Proteus
-
+ 
 ## Languages
 
 - Arabic : Native
@@ -28,9 +25,12 @@ title: About
 - German : Elementary Proficiency A1
 
 ## Current interest
+### Hardware: 
+- Aurix TriCore architecture INFINEON
+### Software: 
+- CANoe for CAN communication purpose
+- winIDEA for debugging
+- Eclipse CDT
 
-- ECUs in Electrical Vehicles
-- Hardware / Software dependencies in Automotive
 
-
-For further information do not hesitate to contact me.
+For further information do not hesitate to contact me (Badrkacemi.20@gmail.com)
