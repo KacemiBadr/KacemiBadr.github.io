@@ -10,7 +10,7 @@ title: About
 ## Introduction
 
 Badr is a keen electronics & embedded systems engineer, aiming to expand his competencies in challenging **Real Time embedded systems** projects.
-I am currently involved with GKN Automotive Lohmar in the context of my end of study internship.
+I am currently involved with GKN Automotive in Lohmar in the context of my end of study internship.
 Got introduced to the Automotive field thanks to GKN Teams and presently building a Test Software for Verification against Hardware Design "HWE.3" of GKN "AWD Baseline ECU"
 
  
