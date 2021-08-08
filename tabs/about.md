@@ -24,6 +24,7 @@ Got introduced to the Automotive field thanks to GKN Teams and presently buildin
 ## Current interest
 ### Hardware: 
 - Aurix TriCore architecture "INFINEON"
+
 ### Software: 
 - CANoe
 - winIDEA for debugging
