@@ -7,15 +7,12 @@ title: About
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
+## Introduction: 
 
-## Some Skills:
+Badr is a keen electronics & embedded systems engineer, aiming to expand his competencies in challenging **Real Time embedded systems** projects.
+I am currently involved with GKN Automotive Lohmar in the context of my end of study internship.
+Got introduced to the Automotive field thanks to GKN Teams and presently building a Test Software for Verification against Hardware Design "HWE.3" of GKN "AWD Baseline ECU"
 
- - C/C++
- - Linux
- - FreeRTOS
- - MPLAB X
- - Git
- - GitHub
  
 ## Languages
 
@@ -26,9 +23,9 @@ title: About
 
 ## Current interest
 ### Hardware: 
-- Aurix TriCore architecture INFINEON
+- Aurix TriCore architecture "INFINEON"
 ### Software: 
-- CANoe for CAN communication purpose
+- CANoe
 - winIDEA for debugging
 - Eclipse CDT
 
