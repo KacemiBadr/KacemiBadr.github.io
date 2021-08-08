@@ -7,7 +7,7 @@ title: About
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
-## Introduction: 
+## Introduction
 
 Badr is a keen electronics & embedded systems engineer, aiming to expand his competencies in challenging **Real Time embedded systems** projects.
 I am currently involved with GKN Automotive Lohmar in the context of my end of study internship.
