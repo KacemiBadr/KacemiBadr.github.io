@@ -9,7 +9,7 @@
 
 title: Badr Kacemi  # the main title
 
-tagline: Blogger & Embedded Software developer  💻 	 # it will display as the sub-title
+tagline: Embedded systems engineer 💻 	 # it will display as the sub-title
 
 description: >-              # used by seo meta and the atom feed
   portfolio, sidebar, side project,spring,java,spring boot,docker,devops
@@ -38,7 +38,7 @@ social:
     - https://twitter.com/badr_kacemi      # change to your twitter homepage
     - https://github.com/KacemiBadr       # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/badr.kacemi.3
+    - https://www.facebook.com/badr.kacemi.98/
     - https://www.linkedin.com/in/badr-kacemi/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
